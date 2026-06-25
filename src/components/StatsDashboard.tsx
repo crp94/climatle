@@ -60,7 +60,7 @@ export default function StatsDashboard({ stats }: StatsDashboardProps) {
         })}
       </div>
       <div className="mt-3 text-center text-[9px] sm:text-[10px] text-gray-500 dark:text-gray-400">
-        Colors and bars indicate percentiles: <span className="text-emerald-500 font-bold">Green = Low</span> | <span className="text-red-500 font-bold">Red = High</span>.
+        Colors reflect environmental impact: <span className="text-green-500 font-bold">Green = Better</span> | <span className="text-red-500 font-bold">Red = Worse</span>.
       </div>
     </div>
   );
